@@ -9,7 +9,8 @@
     color: #e5e7eb;
     font-size: 18px;
     display:flex;
-    margin: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     
     
 }
@@ -26,10 +27,43 @@
     justify-content: flex-end;
     width: 50%;
     font-size: 18px;
+    align-content: flex-start;
 }
 
 a{
     margin: 25px;
 }
 
+.seccion_2{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
 
+}
+
+#parrafo{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.brand{
+    width: 600px;
+}
+
+.comienza{
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 25px;
+    font-weight: bold;
+    height: 60px;
+}
+
+.hero_image{
+    font-weight: 25px;
+    background-color: gray;
+
+}
