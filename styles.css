@@ -80,3 +80,48 @@ a{
     flex:1 ;
 }
 
+.seccion_3{
+    display:flex;
+    
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9faf8;
+    color: hsl(215, 28%, 17%);
+}
+
+.seccion_3.cont_1{
+    background-color: #f9faf8;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.seccion_3.cont_2{
+    background-color: #f9faf8;
+    
+}
+
+.hero_recuadro {
+   background-color: #f9faf8; 
+   flex-direction: row;
+   justify-content: space-between;
+   
+ 
+}
+
+.hero_recuadro.cuadrado {
+   
+    width: 100px; 
+    height: 100px; 
+    background: #428bca;
+   border-radius: 10px;
+    margin-right: 40px;
+    
+}
+
+.hero_recuadro.cuadrado_text {
+    width: 20px;
+    height: 20px;
+    background: pink;
+}
+
