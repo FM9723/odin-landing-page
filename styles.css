@@ -81,6 +81,7 @@ a{
 }
 
 .seccion_3{
+    margin-top: 20px;
     display:flex;
     
     flex-direction: column;
@@ -98,6 +99,8 @@ a{
 
 .seccion_3.cont_2{
     background-color: #f9faf8;
+    flex-direction: row;
+    
     
 }
 
@@ -105,23 +108,34 @@ a{
    background-color: #f9faf8; 
    flex-direction: row;
    justify-content: space-between;
-   
+   display: block;
  
 }
 
 .hero_recuadro.cuadrado {
-   
-    width: 100px; 
+   margin-top: 20px;
+    width: 150px;
     height: 100px; 
-    background: #428bca;
    border-radius: 10px;
     margin-right: 40px;
+    border: 2px solid #428bca;
+    
+
     
 }
 
 .hero_recuadro.cuadrado_text {
-    width: 20px;
-    height: 20px;
-    background: pink;
+    width: 150px;
+    height: 100px;
+    overflow: hidden; /* Esto ocultará el texto que rebase el límite del div */
+    word-wrap: break-word; /* Esto permitirá que las palabras largas se rompan si no caben en una línea */
+    white-space: normal;
+    font-size: 12px;
+    color:rgb(172, 169, 172)
 }
 
+.img_hero{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
